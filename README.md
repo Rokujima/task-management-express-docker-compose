@@ -19,7 +19,7 @@ Before you begin, make sure you have the following installed on your system:
    cd task-management
 
 2. Build Docker Compose
-    ``bash
+    ```bash
     docker-compose build
 
 3. Up Docker Compose
@@ -50,4 +50,3 @@ routes: Express.js route definitions.
 migrations: Database migration files for Sequelize.
 tests: Unit tests using Jest and Supertest.
 
- 
