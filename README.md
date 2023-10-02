@@ -27,14 +27,14 @@ Before you begin, make sure you have the following installed on your system:
     docker-compose up -d
 
 ## API Endpoints
-POST /account/register: Register a new staff member.
-POST /account/login: Authenticate a staff member and get a JWT token.
-POST /task/create: Create a new task.
-PUT /task/assign/:id: Assign a task to a staff member.
-DELETE /task/delete/:id: Delete a task.
-PUT /task/complete/:id: Mark a task as completed.
-GET /tasks/all: Get all tasks.
-GET /tasks/:id: Get a task by ID.
+- POST /account/register: Register a new staff member.
+- POST /account/login: Authenticate a staff member and get a JWT token.
+- POST /task/create: Create a new task.
+- PUT /task/assign/:id: Assign a task to a staff member.
+- DELETE /task/delete/:id: Delete a task.
+- PUT /task/complete/:id: Mark a task as completed.
+- GET /tasks/all: Get all tasks.
+- GET /tasks/:id: Get a task by ID.
 
 ## Postman Collection
 To test the API endpoints, you can import the provided Postman collection:
